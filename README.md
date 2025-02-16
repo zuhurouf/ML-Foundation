@@ -1,2 +1,2 @@
-# ML-FFoundation
+# ML-Foundation
 Machine learning foundation
