@@ -13,7 +13,11 @@ class Linear_Regression {
 
         void train();
 
-        void optimize(double cost);
+        void optimize(double cost, std::vector<double> predictions);
+
+        double derivative_cost_w(std::vector<double> predictions);
+
+        double derivative_cost_b(std::vector<double> predictions);
 };
 
 #endif
