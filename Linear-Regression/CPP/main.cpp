@@ -11,10 +11,10 @@ int main() {
     lr.x = x;
     lr.y = y;
 
-    lr.w = 6;
-    lr.c = 10;
-    lr.learning_rate = 0.05;
-    lr.epoch = 1000;
+    lr.w = 8;
+    lr.c = 18;
+    lr.learning_rate = 0.01;
+    lr.epoch = 100;
     lr.train();
 
     return 0;
