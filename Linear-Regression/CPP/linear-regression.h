@@ -5,19 +5,20 @@
 
 class Linear_Regression {
     private:
-        int n, epoch;
+        int n;
     
     public:
-        double w, c, learning_rate;
-        std::vector<double> x = {}, y = {};
+        int epoch;
+        float w, c, learning_rate;
+        std::vector<float> x = {}, y = {};
 
         void train();
 
-        void optimize(double cost, std::vector<double> predictions);
+        void optimize(float cost, std::vector<float> predictions);
 
-        double derivative_cost_w(std::vector<double> predictions);
+        float derivative_cost_w(std::vector<float> predictions);
 
-        double derivative_cost_b(std::vector<double> predictions);
+        float derivative_cost_b(std::vector<float> predictions);
 };
 
 #endif

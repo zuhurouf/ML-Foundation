@@ -5,7 +5,7 @@
 
 class Mean_Squared_Error {
     public:
-        double calculate_error(std::vector<double> y_hat, std::vector<double> y);
+        float calculate_error(std::vector<float> y_hat, std::vector<float> y);
 };
 
 #endif
